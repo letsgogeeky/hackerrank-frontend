@@ -1,0 +1,52 @@
+
+body {
+    --main-color: #6200EE;
+    --main-font: Roboto;
+    background-color: grey;
+}
+h1 {
+    color: var(--main-color, blue);
+    font-family: Lobster, monospace;
+}
+p {
+    padding: 10px 50px 10px 40px;
+    font-size: 20px;
+    border: solid 2px #FF0000;
+    color: var(--main-color, blue);
+}
+
+
+.huge-font {
+    font-size: 30px;
+    font-family: monospace, 'Times New Roman';
+}
+
+.small-img {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+.thin-border {
+    border: solid 5px green;
+    border-radius: 10px;
+}
+
+.circular-image { 
+    border-radius: 50%;
+}
+
+.div-style {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+#shocked {
+    font-size:10px;
+}
+h2 {
+    padding: 10px;
+    margin: 40px;
+    border: solid 5px yellow;
+    color: var(--main-color, blue);
+}
