@@ -1,0 +1,42 @@
+.main {
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: -1px 1px #77aaff;
+}
+.join-us {
+    padding: 10px;
+}
+h3 {
+    color: #549e9a;
+
+}
+.yellow-title {
+    color: #d0de87;
+}
+.sub-container {
+    display: flex;
+}
+.pricing {
+    background-color: #40b8b7;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+}
+.why-us {
+    flex: 1;
+    background-color: #4abebd;
+    color: white;
+}
+.div-button {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: #bfdf31;
+    border-radius: 5px;
+    width: 50%;
+    /* margin-left: 25%; */
+    border: #bfdf31 1px solid;
+}
