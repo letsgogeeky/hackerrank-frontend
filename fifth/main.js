@@ -38,6 +38,7 @@ companies.push("IQVIA");
 
 result = companies.pop()
 document.getElementById('array-result').innerText = result;
+$("#array-result").innerText
 console.log(companies);
 
 result = companies.shift()
