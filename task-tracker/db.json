@@ -1,10 +1,29 @@
 {
   "tasks": [
     {
-      "text": "hello",
-      "day": " wfqwf ",
-      "reminder": false,
+      "text": "rgsdgsdg",
+      "day": "sdgsdg",
+      "reminder": true,
       "id": 1
+    },
+    {
+      "text": "This will not appear by default",
+      "day": "today",
+      "reminder": false,
+      "id": 4
+    },
+    {
+      "text": "will be updated",
+      "day": "Today",
+      "reminder": false,
+      "id": 5
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "name": "The Matrix",
+      "genre": "Science Fiction"
     }
   ]
 }

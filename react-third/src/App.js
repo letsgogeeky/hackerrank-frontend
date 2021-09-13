@@ -1,23 +1,14 @@
 import './App.css';
 import Home from './Home';
-import About from './About';
+import About, {ContactUs} from './About';
+import {Header} from './components/Header'
 import {BrowserRouter, Switch, Route, Link} from 'react-router-dom'
-import {Navbar, Container, Nav} from 'react-bootstrap';
+import Charting from './components/Charting'
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Navbar>
-      <Container>
-        <Navbar.Brand>
-          Hackerrank
-        </Navbar.Brand>
-        <Nav className="me-auto">
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/about">About</Nav.Link>
-      </Nav>
-      </Container>
-    </Navbar>
+    <Header></Header>
     <nav>
           <ul>
             <li>
@@ -32,6 +23,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home}></Route>
         <Route path="/about" exact component={About}></Route>
+        <Route path="/chart" exact component={Charting}></Route>
       </Switch>
      </BrowserRouter>
     </>
